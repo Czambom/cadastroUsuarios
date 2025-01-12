@@ -1,0 +1,189 @@
+/* Reset básico para consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+/* Botões */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Formulários */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    width: 100%;
+}
+
+/* Tabela de listagem */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Página de Cadastro */
+.cadastro h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.voltar {
+    text-align: center;
+}
+
+.cadastro .voltar a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cadastro .voltar a:hover {
+    text-decoration: none;
+}
+
+/* Página Listagem de Usuários */
+.usuarios h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+.usuarios .novocadastro {
+    text-align: center;
+    margin: 30px;
+}
+
+.usuarios .novocadastro a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.usuarios tr th {
+    text-align: center;
+}
+
+.usuarios tr td {
+    text-align: center;
+}
+
+.usuarios td a {
+    text-align: center;
+    margin: 0px 20px;
+}
+
+/* Edição de Usuários */
+.edicao h1 {
+    text-align: center;
+}
+
+.edicao .voltar a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.edicao .voltar a:hover {
+    text-decoration: none;
+}
+
+/* Atualização de Usuários */
+.atualizacao h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+.atualizacao div {
+    margin: 50px;
+}
+.atualizacao .voltar a {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.atualizacao .voltar a:hover {
+    text-decoration: none;
+}
